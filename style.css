@@ -46,3 +46,24 @@ button{
     transform:translateX(-50%);
     bottom:-30px;
 }
+@media (max-width: 375px) {
+    .container {
+        width: calc(100% - 32px);
+        padding: 2rem 1rem 4rem;
+    }
+
+    #advice {
+        font-size: 1.3rem;
+    }
+
+    #advice-id {
+        font-size: 0.7rem;
+        letter-spacing: 2px;
+    }
+
+    button {
+        width: 56px;
+        height: 56px;
+        bottom: -28px;
+    }
+}
