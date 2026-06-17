@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#202733;
+    font-family:Arial, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    background:#313A48;
+    padding:2rem;
+    width:90%;
+    max-width:500px;
+    text-align:center;
+    border-radius:15px;
+    position:relative;
+}
+
+#advice-id{
+    color:#53FFAA;
+    letter-spacing:3px;
+    margin-bottom:20px;
+}
+
+#advice{
+    color:white;
+    margin-bottom:20px;
+}
+
+button{
+    width:60px;
+    height:60px;
+    border:none;
+    border-radius:50%;
+    background:#53FFAA;
+    cursor:pointer;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    bottom:-30px;
+}
